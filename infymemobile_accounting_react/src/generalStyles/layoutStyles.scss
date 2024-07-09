@@ -1,0 +1,21 @@
+@import "../generalStyles/colors.scss";
+
+main {
+    max-width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 6.5rem;
+    div:first-child {
+        height: fit-content;
+    }
+    .pageHeading {
+        color: $darkHeaded;
+        text-align: center;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: $headerTextColor;
+}

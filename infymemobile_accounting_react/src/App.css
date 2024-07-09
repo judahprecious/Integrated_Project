@@ -1,0 +1,13 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 4rem;
+}

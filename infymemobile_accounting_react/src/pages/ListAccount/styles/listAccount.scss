@@ -1,0 +1,21 @@
+@import "../../../generalStyles/colors.scss";
+
+.accountsContainer {
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1rem;
+    .card {
+        background: $accountCardBg;
+        .card-header {
+            font-weight: 700;
+        }
+        .card-body {
+            .card-text {
+                span {
+                    display: block;
+                }
+            }
+        }
+    }
+}

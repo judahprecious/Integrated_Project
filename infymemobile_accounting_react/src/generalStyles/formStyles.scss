@@ -1,0 +1,50 @@
+@import "../generalStyles/colors.scss";
+
+.formContainer {
+    width: 80vw;
+    height: fit-content;
+    background-color: $formBg;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 1rem 1rem $formShadow;
+    form {
+        .caption {
+            color: $captionColor;
+            margin-bottom: 1rem;
+        }
+        label {
+            color: $labelColor;
+        }
+        button[type="submit"] {
+            background-color: $buttonBg;
+            border: none;
+        }
+        .buttonCenter {
+            width: 40%;
+            margin-top: 3rem;
+            margin-inline: 30%;
+        }
+    }
+}
+
+.successMessage {
+    color: $successMessage;
+}
+.errorMessage {
+    color: $errorMessage;
+}
+
+@mixin apiResponseMessage() {
+    color: $headerTextColor;
+    text-align: center;
+    margin-top: 1rem;
+}
+.errorMessageInBox {
+    background-color: $errorMessageBg;
+    @include apiResponseMessage();
+}
+
+.successMessageInBox {
+    background-color: $successMessageBg;
+    @include apiResponseMessage();
+}

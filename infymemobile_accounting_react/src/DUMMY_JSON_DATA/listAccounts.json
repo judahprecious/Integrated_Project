@@ -1,0 +1,20 @@
+[
+    {
+        "accountNumber": 9876543210,
+        "bankName": "HDFC",
+        "balance": 99999.0,
+        "accountType": "Savings",
+        "ifscCode": "HDFC1234",
+        "openingDate": "2023-06-23",
+        "mobileNumber": 8754224314
+    },
+    {
+        "accountNumber": 7258534684279,
+        "bankName": "AXIS",
+        "balance": 9.98995e7,
+        "accountType": "Current",
+        "ifscCode": "AXIS1234",
+        "openingDate": "2024-04-11",
+        "mobileNumber": 8754224314
+    }
+]
